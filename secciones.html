@@ -1,0 +1,218 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    -->
+    <link href="/css/principal.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+    <title>Página 4</title>
+</head>
+<body>
+
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#" role="button" aria-controls="ejemplo">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Button with data-bs-target
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione obcaecati unde rerum corrupti. Quod, quas?
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Otra cosa</a></li>
+              <li><a class="dropdown-item" href="#">Algo mas</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+   
+
+
+      <div class="container my-5">
+        <nav>
+            <div id="mi-tab-nav" class="nav nav-tabs" role="tablist">
+                <button id="mi-tab-nav-inicio" class="nav-link active"
+                data-bs-toggle="tab" data-bs-target="#nav-inicio" type="button"
+                role="tab" aria-controls="nav-inicio" aria-selected="true">Inicio</button>
+
+                <button id="mi-tab-nav-productos" class="nav-link"
+                data-bs-toggle="tab" data-bs-target="#nav-productos" type="button"
+                role="tab" aria-controls="nav-productos" aria-selected="false">Productos</button>
+
+                <button id="mi-tab-nav-ofertas" class="nav-link"
+                data-bs-toggle="tab" data-bs-target="#nav-ofertas" type="button"
+                role="tab" aria-controls="nav-ofertas" aria-selected="false">Ofertas</button>
+
+                
+                <button id="mi-tab-nav-recomendacion" class="nav-link"
+                data-bs-toggle="tab" data-bs-target="#nav-recomendacion" type="button"
+                role="tab" aria-controls="nav-recomendacion" aria-selected="false">Recomendacion</button>
+
+                
+                <button id="mi-tab-nav-direccion" class="nav-link"
+                data-bs-toggle="tab" data-bs-target="#nav-direccion" type="button"
+                role="tab" aria-controls="nav-direccion" aria-selected="false">Direccion</button>
+            </div>
+        </nav>
+        <div id="mi-tab-contenido" class="tab-content">
+            <div id="nav-inicio" class="tab-pane fade show active p-3"
+            role="tabpanel" aria-labelledby="mi-tab-nav-inicio">
+                <h2>Inicio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis beatae repellendus molestias perspiciatis. Consequuntur?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo! Sequi voluptate placeat ullam eligendi molestias fuga repellat officia cumque.</p>
+            </div>
+
+            <div id="nav-productos" class="tab-pane fade  p-3"
+            role="tabpanel" aria-labelledby="mi-tab-nav-productos">
+                <h2>Productos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis beatae repellendus molestias perspiciatis. Consequuntur?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo! Sequi voluptate placeat ullam eligendi molestias fuga repellat officia cumque.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo! Sequi voluptate placeat ullam eligendi molestias fuga repellat officia cumque.</p>
+                <a href="#prod" class="btn btn-secondary btn-lg">Comprar</a>
+            </div>
+
+            <div id="nav-ofertas" class="tab-pane fade  p-3"
+            role="tabpanel" aria-labelledby="mi-tab-nav-ofertas">
+                <h2>Ofertas</h2>
+                <section id="precios" class="bg-light mt-5">
+                    <div class="container-lg">
+                        <div class="text-center">
+                            <h2>Planes de pago</h2>
+                            <p class="lead text-muted">Elija un plan de pago cómodo por docena</p>
+                        </div>
+                        <div class="row my-5 align-items-center justify-content-center"><!-- g-0 -->
+                            <div class="col-3 col-lg-4 col-xl-4">
+                                <div class="card border-0">
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Económica</h4>
+                                        <p class="lead card-subtitle">Pesca nacional</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">Bs. 100</p>
+                                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, consectetur.</p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 col-lg-4">
+                                <div class="card border-2 border-primary">
+                                    <div class="card-header text-center text-primary">Más consumido</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Estándar</h4>
+                                        <p class="lead card-subtitle">Pesca latinoamericana</p>
+                                        <p class="display-5 my-2 text-primary fw-bold">Bs. 120</p>
+                                        <p class="card-text mx-2 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, consectetur.</p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-4 col-xl-3">
+                                <div class="card border-0">
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Premium</h4>
+                                        <p class="lead card-subtitle">Pesca importada</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">Bs. 220</p>
+               
+                                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, consectetur.</p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-lg-4 col-xl-3">
+                                <div class="card border-0">
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Premium</h4>
+                                        <p class="lead card-subtitle">Pesca importada</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">Bs. 220</p>
+                                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, consectetur.</p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div id="nav-recomendacion" class="tab-pane fade  p-3"
+            role="tabpanel" aria-labelledby="mi-tab-nav-recomendacion">
+                <h2>Recomendacion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis beatae repellendus molestias perspiciatis. Consequuntur?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo! Sequi voluptate placeat ullam eligendi molestias fuga repellat officia cumque.</p>
+                <img src="resources/dos.jpeg" alt="Mapaches 2x1" class="img-fluid">
+            </div>
+
+            <div id="nav-direccion" class="tab-pane fade  p-3"
+            role="tabpanel" aria-labelledby="mi-tab-nav-direccion">
+                <h2>Direccion</h2>
+ 
+                <section class="bg-light">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2>Mantenerse informado </h2>
+                            <p class="lead">Informese.</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 text-center">
+                                <p class="text-muted my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nisi in distinctio sed amet atque.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal-elemento">Informe/button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div id="modal-elemento" class="modal fade"
+                tabindex="-1"
+                aria-labelledby="modal-titulo"
+                aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 id="modal-titulo" class="modal-title">Informe</h5>
+                                <button type="button" class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Gicela M.</p>
+        
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
